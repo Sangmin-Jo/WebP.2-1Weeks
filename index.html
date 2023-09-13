@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title></title>
+		<style type="text/css">
+			html{cursor: url("./img/water.png") 0 30, auto;}
+			img:hover{cursor: url("./img/water2.png") 5 70, auto;}
+			@font-face {
+			    font-family: 'PPEditorialNew';
+			    src:url('./fonts/PPEditorialNew-Regular.otf') format('woff');}
+
+			body{width: 80vw; margin: auto; padding-top: 10vw}
+
+			#red{background: orangered; margin: 80px; padding: 20px}
+			#pink{background: hotpink;}
+			H1{font-family: 'PPEditorialNew', serif;
+			font-size: 4vw;
+			line-height: 1.2;
+			padding: 20px;
+		    margin-top: 40px;
+			transition: 0.3s ease;
+			font-weight: 500;}
+
+		</style>
+	</head>
+	<body id="white">
+		<div style="text-align: center;">
+			<img src="./img/seed.png" id=seed>
+			<H1 id=h1>Put water on the seed</H1>
+		</div>
+
+		<script>
+			white.onclick = function(){
+			white.style.background = "skyblue";}
+			seed.onclick = function(){
+			seed.src = "./img/sunflower.jpg";}
+
+		</script>
+	</body>
+</html>
